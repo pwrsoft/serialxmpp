@@ -7,7 +7,7 @@ The program looks for the file in the Java app's run directory.  You can edit th
 Alternatively you can specify an alternative location on the command line using the  -c option
 
 {{{
-java -cp dfsdfdf -jar SerialXMPP.jar -c /Users/johnDoe/SomeConfigFileName.properties
+java -Djava.library.path=./SerialXMPP_lib/Mac_OS_X/ -classpath .:./SerialXMPP_lib/RXTXcomm.jar:./SerialXMPP_lib/smack.jar:./SerialXMPP_lib/smackx.jar:./XMPPSerialjar_lib/jargs.jar:./ -jar SerialXMPP.jar -c /Users/johnDoe/SomeConfigFileName.properties
 }}}
 
 
