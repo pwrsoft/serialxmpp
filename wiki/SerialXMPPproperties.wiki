@@ -12,28 +12,28 @@ java -cp dfsdfdf -jar SerialXMPP.jar -c /Users/johnDoe/SomeConfigFileName.proper
 
 
 = Details =
+The first 5 option are probably the only one that will need changing if using gmail/gtalk as the XMPP server.  Simply enter the gmail address of the sender and receiver users along with the from users password and thire name of their serial port.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
 
 
 {{{
-fromXMPPaddr=gustavvr@gmail.com
-fromXMPPpassword=vatsugvatsug
+fromXMPPaddr=@gmail.com
+fromXMPPpassword=
 #
-toXMPPaddr=rabbitnyc@gmail.com
+toXMPPaddr=@gmail.com
+#
+serialPort=/dev/tty.usbserial-FTAJLZGV
+baud=9600
+#
+#
+#
 #
 #look for XMPP address  ~[rabbit@example.com] at the begin of the serial stream and send message to this address instead for the default listed in the "toUserid=
 #e.g. Arduino
-#Serial.println("~[rabbit@example.com]Hi rabbit");  // Sends teh message "Hi rabbit" to rabbit@example.com
+#Serial.println("~[rabbit@example.com]Hi rabbit");  // Sends the message "Hi rabbit" to rabbit@example.com
 #NOT IMPLMENTED
 useXmppAddrFromMsg=false
 #
-serialPort=/dev/tty.usbserial-FTAJLZGV
-#serialPort=/dev/tty.usbserial-A70060mR
-baud=9600
 #
 #
 XMPPhost=talk.google.com
