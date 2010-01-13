@@ -1,4 +1,4 @@
-#The main configuration file
+#summary The main configuration file
 
 = Introduction =
 
