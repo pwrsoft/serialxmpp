@@ -8,7 +8,7 @@ It the main start up directory there is a file called SerialXMPP.properties .  T
   * -p  The fromXMPPpassword
   * -t  The toXMPPaddr
   * -s  The serialPortPram
-  *-c  The properties file (should be pick up automatically if apps started from the same dir)
+  * -c  The properties file (should be pick up automatically if apps started from the same dir)
 
 = Start-up =
 There are sample start up files for Mac, Linux, and Windows in shell and batch format.
